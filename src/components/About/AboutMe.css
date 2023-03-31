@@ -1,0 +1,18 @@
+
+.tech-container h1{
+    text-align: left;
+}
+
+.about-desc-text{
+    font-size: 16px;
+    color: #7A7A7A;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 1.2rem;
+}
+
+.icons-container{
+    padding-left: 20px;
+    text-align: center;
+}
+

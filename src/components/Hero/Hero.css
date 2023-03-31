@@ -1,0 +1,152 @@
+.hero-content {
+  padding: 11% 10% 5% 10%;
+}
+
+.flex-v-align {
+  vertical-align: middle;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hello-title {
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+.intro-text {
+  margin: 30px 0 40px 0;
+  width: 70%;
+  color: #666;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cv-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8em 2.1em;
+  margin-right: 0.25em;
+  font-size: 1em;
+  line-height: 1.2;
+  border: 0;
+  outline: 0;
+  border: 2px solid #007ced;
+  color: #222;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.22);
+}
+
+.cv-btn:hover {
+  background-color: #007ced;
+  color: white;
+}
+
+.img-container {
+  padding: 50px;
+}
+
+.home-photo {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: calc(100% - 36px);
+  background-color: #fff;
+  border-radius: 1000px;
+  border: 18px solid #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.home-photo .hp-inner {
+  background-image: url("../../assets/sammm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: -18px;
+  bottom: -18px;
+  width: auto;
+  left: -18px;
+  right: -18px;
+}
+
+.work-icon img {
+  margin-left: 5px;
+  width: 30px;
+}
+
+@media (max-width: 1366px) {
+  .hello-title {
+    font-size: 90px;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro-text {
+    width: 80%;
+  }
+
+  .img-container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hello-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .flex-v-align {
+    flex-wrap: wrap-reverse !important;
+    margin: 0;
+  }
+  .home-photo {
+    width: 60%;
+    padding-bottom: calc(60% - 36px);
+    margin: 30px auto;
+  }
+  .home-text {
+    padding-top: 20px;
+  }
+  .intro-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 648px) {
+  .home-photo {
+    width: 70%;
+    padding-bottom: calc(70% - 36px);
+  }
+}
+
+@media (max-width: 500px) {
+  .home-photo {
+    width: 90%;
+    padding-bottom: calc(90% - 36px);
+  }
+}
+
+@media (max-width: 400px)  {
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+}

@@ -1,0 +1,31 @@
+
+.tabs-container .MuiBox-root {
+     margin-top: 2rem;
+}
+
+
+div> *[aria-selected="true"] {
+     /* border-bottom: 1px solid #007ced; */
+     color: #007ced !important;
+  }
+  .MuiTab-textColorPrimary{
+    color: #007ced !important ;
+  }
+
+  .MuiTabs-indicator{
+    display: none;
+  }
+
+  .MuiTab-root{
+    border: 1px solid #7A7A7A;
+    color: #7A7A7A !important;
+  }
+
+
+  @media (max-width: 642px) {
+
+    .MuiTabs-flexContainer{
+        flex-wrap: wrap !important;
+    }
+    
+  }

@@ -1,0 +1,45 @@
+.content-wrapper {
+    text-align: left;
+    padding: 59px 48px 48px 48px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E0E0E0;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.content .title {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin: 0px 0px 18px 0px;
+}
+
+
+.content .description {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #615978;
+}
+
+
+@media (max-width: 993px) {
+  .service-lists{
+    gap: 15px 0;
+  }
+}
+
+
+@media (max-width: 761px) {
+    .content-wrapper {
+      padding: 39px 20px 28px 20px;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #E0E0E0;
+      border-radius: 12px 12px 12px 12px;
+  }
+  .content .title{
+      font-size: 20px;
+  }
+  
+}

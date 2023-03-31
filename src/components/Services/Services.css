@@ -1,0 +1,7 @@
+.service-lists{
+    margin-top: 3rem;
+}
+
+.service-lists .MuiListItemIcon-root{
+    min-width: 25px !important;
+}

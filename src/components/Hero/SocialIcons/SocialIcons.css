@@ -1,0 +1,17 @@
+.social-icons a{
+    color: black;
+} 
+
+
+.social-icons a:hover{
+    color: #007ced;
+}
+
+.social-icons .MuiGrid-container{
+    margin-bottom: 1.2rem;
+    padding-left: 1rem;
+}
+
+.social-icons .MuiSvgIcon-fontSizeMedium{
+    font-size: 30px !important;
+}

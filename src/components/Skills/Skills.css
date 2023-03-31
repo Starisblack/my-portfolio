@@ -1,0 +1,27 @@
+.tech-icon {
+  width: 70px;
+  height: 70px;
+}
+.skill-container {
+  padding-top: 3rem;
+}
+
+.tech-container .heading-subtitle {
+  display: block;
+  text-align: left;
+  padding-left: 8%;
+}
+
+@media (max-width: 900px) {
+  .tech-container {
+    margin-top: 80px;
+  }
+  .tech-container .heading-subtitle {
+    padding-left: 0;
+  }
+
+  .icons-container {
+    padding-left: 0;
+    text-align: center;
+  }
+}
