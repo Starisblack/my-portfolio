@@ -1,25 +1,27 @@
 import "./AboutMe.css";
 import { Grid } from "@mui/material";
-
-import React from "react";
+import { Animation } from "../../utils/animation";
 import Skills from "../Skills/Skills";
 
 export const AboutMe = () => {
   return (
-    <div className="section-container">
+    <div  id="aboutMe" className="section-container">
       <Grid container>
         <Grid item md={6}>
             <div>
-              <div class="heading-subtitle primary-color">
+            
+              <div className="heading-subtitle primary-color">
+               <Animation type="fade-right">
                 FULL STACK DEVELOPER
+                </Animation>
               </div>{" "}
-              <h3 class="heading-title">About Me</h3>{" "}
-              {/* <div class="heading-content">
-                My name is Samuel. I Started coding in 2021 and I like creating cool projects.{" "}
-              </div> */}
+              <Animation type="fade-right">
+              <h3 className="heading-title">About Me</h3>{" "}
+              </Animation>
             </div>
 
-            <div class="about-desc-text">
+            <div className="about-desc-text">
+            <Animation type="fade-right">
               I am a javascript engineer working majorly on frontend, backend
               and UI of applications with technologies like React, Redux,
               React-Hooks, Ionic, Cordova, NodeJS, Express, CSS, MongoDB, Material UI and Well
@@ -29,6 +31,7 @@ export const AboutMe = () => {
               and theming. Passionate about building accessible web
               and mobile apps that users love. A quick learner and a team worker that gets
               the job done.<span> And I ❤️ Food.</span>{" "}
+              </Animation>
             </div>
           
         </Grid>
@@ -36,7 +39,9 @@ export const AboutMe = () => {
         
 
         <Grid item md={6} className="icons-container">
+       
           <Skills />
+    
         </Grid>
       </Grid>
     </div>

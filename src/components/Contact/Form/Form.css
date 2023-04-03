@@ -1,0 +1,16 @@
+
+.MuiTextarea-root{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.send-btn{
+    background-color: #007ced !important;
+    color: white !important;
+    margin: 1rem 0 !important;
+}
+
+
+.send-btn:hover{
+    opacity: .7;
+}

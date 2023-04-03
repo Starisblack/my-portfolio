@@ -9,6 +9,7 @@ import javascript from "../../assets/images/desktopIcons/icons8-javascript-96.pn
 import nodeJs from "../../assets/images/desktopIcons/icons8-node-js-96.png";
 import wordpress from "../../assets/images/desktopIcons/icons8-wordpress-96.png";
 import mongodb from "../../assets/images/desktopIcons/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png";
+import { Animation } from "../../utils/animation";
 
 
 
@@ -17,6 +18,7 @@ const Skills = () => {
 
   return (
     <div className="tech-container">
+    <Animation type="fade-right">
       <p className="heading-subtitle">Tech Stack</p>
 
       <Grid  className="skill-container" container gap={3}>
@@ -27,7 +29,9 @@ const Skills = () => {
             </Grid>
           );
         })}
+        
       </Grid>
+      </Animation>
     </div>
   );
 };

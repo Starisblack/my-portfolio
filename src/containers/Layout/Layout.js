@@ -1,7 +1,8 @@
 import "./Layout.css"
 import Navbar from "../../components/Navigation/NavBar/Navbar";
 import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import AOS from "aos"
 
 
 const Layout = (props) => {
@@ -18,6 +19,13 @@ const Layout = (props) => {
    const sideDrawerToggleHandler = () => {
         setShowSideDrawer(prevValue => !prevValue)
     }
+
+        useEffect(() => {
+          AOS.init({
+            duration: 700,
+            delay: 100,
+          });
+        });
      
         return (
             <div>

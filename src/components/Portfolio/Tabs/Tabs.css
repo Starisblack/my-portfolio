@@ -3,6 +3,9 @@
      margin-top: 2rem;
 }
 
+.tabs-container .MuiBox-root{
+  padding: 0 !important;
+}
 
 div> *[aria-selected="true"] {
      /* border-bottom: 1px solid #007ced; */
