@@ -5,6 +5,7 @@ import { Grid } from "@mui/material";
 import SocialIcons from "./SocialIcons/SocialIcons";
 import { motion } from "framer-motion";
 import { Animation } from "../../utils/animation";
+import samCV from "../../assets/0001.Samuel Ogunniyi-CV.pdf"
 
 const Hero = () => {
   return (
@@ -33,10 +34,10 @@ const Hero = () => {
          
                 <a
                 
-                  href="?"
-                  target="_blank"
+                  href={samCV}
+                 
                   className="btn cv-btn"
-                  rel="noreferrer"
+                  download
                 >
                   Download CV
                 </a>

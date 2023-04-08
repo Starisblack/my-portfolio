@@ -30,12 +30,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a class="dribbble" href="/#">
+                <a class="github" href="https://github.com/Starisblack">
                   <i class="fa fa-github"></i>
                 </a>
               </li>
               <li>
-                <a class="linkedin" href="/#">
+                <a class="linkedin" href="https://linkedin.com/in/samuel- ogunniyi-74983a151">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>

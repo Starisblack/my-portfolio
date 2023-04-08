@@ -8,13 +8,13 @@
     -o-transition: 0.3s;
     border-radius: 5px;
     max-width: 435px;
-} */
+} 
 
-/* .single-project .content .title {
+ .single-project .content .title {
     font-size: 24px;
     line-height: 28px;
     margin: 22px 0 0;
-}
+} 
 
 .single-project .img img {
     border-radius: 5px;
@@ -38,6 +38,8 @@
 .single-project .text{
    margin-top: .5rem;
 } */
+
+
 
 .listing-container {
     overflow: hidden;
@@ -77,8 +79,10 @@
 }
 
 .container_foto {
+   background-size: contain;
+   background-repeat: no-repeat;
+    height: 400px;
     position: relative;
-    background-color: rgba(57, 62, 93, 0.7);
     padding: 0;
     overflow: hidden;
     margin: 5px;
@@ -112,8 +116,6 @@
   
   .container_foto img {
     border-radius: 10px;
-    height: 400px;
-    object-fit: contain;
     top: 0;
     left: 0;
     opacity: .8;

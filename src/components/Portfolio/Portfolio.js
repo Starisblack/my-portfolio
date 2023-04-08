@@ -1,5 +1,6 @@
 import PortfolioTabs from "./Tabs/Tabs";
 import "./Portfolio.css"
+// import { SecondCard } from "../Card/Card";
 
 
 
@@ -15,7 +16,8 @@ const Portfolio = () => {
               <h3 className="heading-title">Projects</h3>
               <PortfolioTabs
                />
-             
+              
+              
     </div>
   )
 }

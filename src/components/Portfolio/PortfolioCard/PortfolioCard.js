@@ -8,8 +8,8 @@ export const PortfolioCard = ({ data }) => {
     <div className="listing-container">
       {data?.map((itemData) => {
         return (
-          <div key={itemData.id} className="single-project">
-            <div className="container_foto ">
+          <div key={itemData.id} className="single-project" >
+            <div className="container_foto"  style={{backgroundImage: `url(${itemData.img})` }}>
               {/* <div className="type">
                 <span>{itemData.type}</span>
               </div> */}
@@ -33,8 +33,8 @@ export const PortfolioCard = ({ data }) => {
               Refugees Organization (CAIRO)...
             </h4>
               </article>  */}
-
-              <img src={itemData.img} alt={itemData.name} />
+{/* 
+              <img src={itemData.img} alt={itemData.name} /> */}
             </div>
             {/* <div class="img">
                 <img src={cairopdx} alt="" style={{opacity: "1"}}/>
