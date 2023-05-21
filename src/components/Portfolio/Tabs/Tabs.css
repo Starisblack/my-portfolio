@@ -32,3 +32,48 @@ div> *[aria-selected="true"] {
     }
     
   }
+
+  @media (max-width: 560px) {
+      .tabs-container .MuiTabs-flexContainer{
+        justify-content: flex-start !important;
+      }
+
+      .tabs-container .MuiTab-root{
+        font-size: .75rem;
+      }
+
+      .tabs-container .MuiTab-root{
+        padding: 0 8px;
+      }
+  }
+
+  @media (max-width: 469px) {
+    .tabs-container .MuiTabs-flexContainer{
+      justify-content: space-between !important;
+    }
+
+    .tabs-container .MuiTab-root{
+      font-size: .65rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+  .tabs-container .MuiTab-root{
+    font-size: .6rem;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  .tabs-container .MuiTabs-flexContainer{
+    justify-content: flex-start !important;
+  }
+
+  .tabs-container .MuiTab-root{
+    font-size: .5rem;
+  }
+
+}

@@ -78,7 +78,7 @@ export const portfolioData = [
   {
     id: "8",
     type: "Website",
-    name: "FX logistics",
+    name: "FX Logistics",
     url: "https://fxlogistics.org/",
     desc: "Full sustainable logistics solution.",
     tech: ["Wordpresss", "Elementor"]
