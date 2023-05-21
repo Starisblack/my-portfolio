@@ -30,7 +30,7 @@
 }
 
 .scroll .Toolbar {
-    background-color: white ;
+    background-color: #ffffffdb ;
   }
 
 
@@ -39,6 +39,12 @@
         display: none;
     }
   .Toolbar {
-    padding: 4vw 8vw;
+    padding: 2vw 8vw;
   }
+}
+
+@media (max-width: 769px) {
+    .Toolbar{
+      padding: 4vw 8vw;
+    }
 }

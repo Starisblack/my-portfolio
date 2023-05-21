@@ -1,0 +1,15 @@
+#portfolio {
+  padding: 5% 15%;
+}
+
+@media (max-width: 1080px) {
+  #portfolio {
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #portfolio {
+    padding: 0 5%;
+  }
+}

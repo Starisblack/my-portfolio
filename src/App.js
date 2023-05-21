@@ -4,7 +4,7 @@ import Homepage from "./Pages/Homepage/Homepage";
 // import { useCallback} from "react";
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
-import SinglePagePorfolio from "./components/Portfolio/SinglePagePorfolio/SinglePagePorfolio";
+// import SinglePagePorfolio from "./components/Portfolio/SinglePagePorfolio/SinglePagePorfolio";
 
 
 const App = () => {
@@ -103,7 +103,7 @@ const App = () => {
       /> */}
       <Routes>
         <Route path="/" exact element={<Homepage />} />
-        <Route path="projects/:id" element={<SinglePagePorfolio />} />
+        {/* <Route path="projects/:id" element={<SinglePagePorfolio />} /> */}
       </Routes>
     </Layout>
   );

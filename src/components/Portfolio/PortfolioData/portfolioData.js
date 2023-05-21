@@ -1,75 +1,90 @@
-import cairopdx3 from "../../../assets/cairopdx3.png"
-import cairomn from "../../../assets/cairomn.png"
-import alimbeccy from "../../../assets/alimbeccy.png"
-import kasi from "../../../assets/kasi.png"
-import brain from "../../../assets/brain.png"
-import fx from "../../../assets/fx.png"
-import yengema from "../../../assets/yengema.png"
-import young from "../../../assets/young.png"
-
-
 export const portfolioData = [
   {
     id: "1",
-    name: "cairopdx",
     type: "Website",
-    url: "https://cairopdx.org",
-    img: cairopdx3
+    name: "Renda HR",
+    desc: "An AI Powered Core-HR Software that helps you with your people management from hire to fire and everything in between.",
+    url: "https://joinrenda.com",
+    tech: ["React", "Typescript", "Tailwind CSS", "Material UI"]
   },
   {
     id: "2",
-    name: "alimbeccy" ,
     type: "Website",
-    url: "https://alimbeccy.com",
-    img: alimbeccy
+    name: "Yengema",
+    desc: "A full stack web app for listing real estates, cars and electronics",
+    url: "https://yengema.netlify.app",
+    tech: ["React", "ExpressJS", "NodeJs", "MongoDB"]
   },
-
   {
     id: "3",
-    name: "kasinstitute" ,
     type: "Website",
-    url: "https://kasinstitute.org",
-    img: kasi
+    name: "CAIRO PDX" ,
+    url: "https://cairopdx.org/",
+    desc: "A NGO website built to promote equity, social justice, and the thriving of African immigrant children, youth, and families through programs, services, and community organizing.",
+    tech: ["Wordpresss", "Elementor"]
   },
 
+  // {
+  //   id: "3",
+  //   type: "Website",
+  //   name: "Yengema",
+  //   desc: " A full stack web app for listing real estates, cars and electronics.",
+  //   url: "https://yengema.netlify.app",
+  //   tech: ["React", "ExpressJS", "NodeJs", "MongoDB"]
+  // },
   {
     id: "4",
-    name: "brainiacit" ,
-    type: "Website",
-    url: "https://brainiacit.us",
-    img: brain
+    type: "Mobile",
+    name: "Citizens Reporting App",
+    url: "https://drive.google.com/file/d/1iaUTDXes89pHWRjgwdgtxjjPHC2SBP4y/view?usp=share_link",
+    gitUrl: "https://github.com/Starisblack/Citizens-Reporting-Solution-App.git",
+    desc: "Report incidents happening around you such as Accident, Fighting, rioting etc.",
+    tech: ["React", "Typescript", "Ionic", "Firebase"]
+    
   },
+
 
   {
     id: "5",
-    name: "fx logistics",
     type: "Website",
-    url: "https://fxlogistics.org/",
-    img: fx
+    name: "Becky's Burger",
+    url: "https://becky-burger.netlify.app",
+    desc:  "Build your Delicious Burger with Exceptional Flavors!",
+    gitUrl: "https://github.com/Starisblack/Burger-App.git",
+    tech:  ["React", "Redux", "Firebase"]
+  },
+
+  
+  {
+    id: "6",
+    type: "Mobile",
+    name: "Blog Mobile App",
+    url: "https://drive.google.com/file/d/1Q1m6ZXjgn3Px18MvnFKqfWWLbkHhFQrA/view?usp=drivesdk",
+    gitUrl: "https://github.com/Starisblack/blog-mobile-app.git",
+    desc: "Unleash your creativity and let your words flow like never before. Craft beautifully blog posts.",
+    tech: ["React", "Typescript", "Ionic", "Firebase"]
+    
   },
 
   {
-    id: "6",
-    name: "young men of distinction",
-    type: "Website",
-    url: "https://www.youngmenofdistinction.org/",
-    img: young
-  },
-  {
     id: "7",
-    name: "cairomn",
     type: "Website",
-    url: "https://cairomn.org",
-    img: cairomn
+    name: "Brainiac IT" ,
+    url: "https://brainiacit.us",
+    desc: "Unleashing Brilliance, powering your technology.",
+    tech: ["Wordpresss", "Elementor"]
   },
 
   {
     id: "8",
-    name: "yengema",
     type: "Website",
-    url: "https://yengema.com",
-    img: yengema
+    name: "FX logistics",
+    url: "https://fxlogistics.org/",
+    desc: "Full sustainable logistics solution.",
+    tech: ["Wordpresss", "Elementor"]
+    
   },
+
 ];
 
 

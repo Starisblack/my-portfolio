@@ -73,7 +73,7 @@ const PortfolioTabs = ({ web }) => {
       </TabPanel>
 
       <TabPanel value={value} index={2}>
-        Mobile App Development
+      <PortfolioCard data={portfolioData.filter(data => data.type === "Mobile")} />
       </TabPanel>
     </Box>
   );
